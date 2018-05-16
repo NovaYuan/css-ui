@@ -1,0 +1,8 @@
+/* 
+ * mixins css 
+ */
+@mixin background-clip ($boxStyle) {
+    -webkit-background-clip: $boxStyle;
+    -moz-background-clip: $boxStyle;
+    background-clip: $boxStyle;
+}
