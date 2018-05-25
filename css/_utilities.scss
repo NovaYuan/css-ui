@@ -9,6 +9,10 @@
     visibility: hidden
 }
 
+.clearfix {
+    zoom: 1;
+}
+
 .clearfix:after {
     content: ".";
     display: block;
@@ -67,4 +71,28 @@
     bottom: 0;
     left: 0;
     width: 100%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.text-eclipes {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
